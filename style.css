@@ -50,14 +50,14 @@ header {
 }
 
 /* Main Section */
-main{
+main {
     display: block;
     margin: 0px auto;
     max-width: 1140px;
 }
 
 /* Previous Year */
-.prev-yr{
+.prev-yr {
     margin: 100px auto;
 }
 
@@ -68,11 +68,11 @@ main{
     justify-content: center;
 }
 
-.prev-yr-img{
-padding: 50px;
+.prev-yr-img {
+    padding: 50px;
 }
 
-.prev-yr-img img{
+.prev-yr-img img {
     width: 450px;
 }
 
@@ -94,14 +94,59 @@ padding: 50px;
 .mark-list li {
     list-style: none;
     color: #444343;
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 10px;
-line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 26px;
 }
 
-.mark-list li::before{
+.mark-list li::before {
     content: '✔';
-    padding-right:10px;
+    padding-right: 10px;
     color: #005FAC;
+}
+
+/* My Plans  */
+.my-plan h2 {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0 60px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.plan-box {
+    text-align: center;
+}
+
+.plan-box h4 {
+    color: #151414;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-box p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plan-box * {
+    margin-bottom: 20px;
+}
+
+.plan-box img {
+    width: 90px;
+}
+
+/* Gradient Section */
+.contact{
+    margin: 150px 0;
 }
