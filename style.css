@@ -18,6 +18,7 @@
     color: #005FAC;
 }
 
+
 /* Header Section */
 header {
     background: url('img/banner/banner3.png');
@@ -46,4 +47,61 @@ header {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+}
+
+/* Main Section */
+main{
+    display: block;
+    margin: 0px auto;
+    max-width: 1140px;
+}
+
+/* Previous Year */
+.prev-yr{
+    margin: 100px auto;
+}
+
+.prev-yr-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev-yr-img{
+padding: 50px;
+}
+
+.prev-yr-img img{
+    width: 450px;
+}
+
+.prev-yr-text h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.prev-yr-text p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.mark-list li {
+    list-style: none;
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 10px;
+line-height: 26px;
+}
+
+.mark-list li::before{
+    content: '✔';
+    padding-right:10px;
+    color: #005FAC;
 }
