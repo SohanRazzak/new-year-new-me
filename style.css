@@ -18,6 +18,16 @@
     color: #005FAC;
 }
 
+.btn-secondery {
+    border-radius: 5px;
+    border: none;
+    padding: 18px 24px;
+    background: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+}
+
 
 /* Header Section */
 header {
@@ -147,11 +157,11 @@ main {
 }
 
 /* Gradient Section */
-.contact{
+.contact {
     margin: 150px 0;
 }
 
-.contact-banner{
+.contact-banner {
     background: url('img/gradient1.png'), url('img/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,11 +169,66 @@ main {
     border-radius: 8px;
 }
 
-.contact-banner h2{
+.contact-banner h2 {
     color: #FFF;
-font-size: 40px;
-font-weight: 700;
-margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 /* Footer Section */
+footer {
+    background: #151414;
+}
+
+.footer-container {
+    display: flex;
+    gap: 40px;
+    min-width: 1140px;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.footer-box p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+.footer-box h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-box h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-box input {
+    color: #F3F3F3;
+    background: transparent;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 18px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.social-icons img {
+    width: 44px;
+}
