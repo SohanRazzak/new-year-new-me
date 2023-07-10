@@ -150,3 +150,20 @@ main {
 .contact{
     margin: 150px 0;
 }
+
+.contact-banner{
+    background: url('img/gradient1.png'), url('img/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 8px;
+}
+
+.contact-banner h2{
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+/* Footer Section */
